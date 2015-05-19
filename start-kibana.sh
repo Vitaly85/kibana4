@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ES_HOST=${ES_HOST:-$DB_PORT_9200_TCP_ADDR}
-ES_PORT=${ES_PORT:-$DB_PORT_9200_TCP_PORT}
+ES_HOST=${ES_HOST:-db}
+ES_PORT=${ES_PORT:-9200}
 ES_SCHEME=${ES_SCHEME:-http}
 KIBANA_CONFIG_PATH=/home/kibana-$KIBANA_VERSION/config/kibana.yml
 #Update kibana config
