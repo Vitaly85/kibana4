@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ES_HOST=${ES_HOST:-db}
+ES_HOST=${ES_HOST:-pss-db}
 ES_PORT=${ES_PORT:-9200}
 ES_SCHEME=${ES_SCHEME:-http}
 KIBANA_CONFIG_PATH=/home/kibana-$KIBANA_VERSION/config/kibana.yml
